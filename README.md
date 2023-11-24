@@ -79,8 +79,6 @@ Minimal design is added to the interface elements. Libraries like [SlimSelect](h
 - [CSS Loaders](https://cssloaders.github.io/)
 - [Notiflix](https://www.notiflix.com/)
 
-
-
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Getting Started
@@ -143,10 +141,10 @@ Now, you're all set up to run the cat search application!
 
 ## 1. Project Setup
 
-- [ ] Create a new repository on GitHub.
-- [ ] Set up the project structure with HTML, CSS, and JavaScript files.
-- [ ] Initialize npm for package management.
-- [ ] Configure Git and GitHub Actions for automatic deployment.
+- [x] Create a new repository on GitHub.
+- [x] Set up the project structure with HTML, CSS, and JavaScript files.
+- [x] Initialize npm for package management.
+- [x] Configure Git and GitHub Actions for automatic deployment.
 
 ## 2. HTTP Requests - Cat Search
 
@@ -180,12 +178,11 @@ Contributions are welcome! Please feel free to submit a pull request.
 **Valentyn Chernetskyi**
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valik3201@gmail.com)
-
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/valik3201)
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/valentynchernetskyi/)
 
-Project Link: [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Valik3201/goit-js-hw-10)
+Project Link:
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Valik3201/goit-js-hw-10)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
