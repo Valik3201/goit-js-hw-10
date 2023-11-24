@@ -172,7 +172,8 @@ Contributions are welcome! Please feel free to submit a pull request.
 
 ## Contact
 
-Valentyn Chernetskyi - valik3201@gmail.com - [@valik3201](https://x.com/valik3201) - [LinkedIn](https://www.linkedin.com/in/valentynchernetskyi/)
+Valentyn Chernetskyi - [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valik3201@gmail.com)
+ - [@valik3201](https://x.com/valik3201) - [LinkedIn](https://www.linkedin.com/in/valentynchernetskyi/)
 
 Project Link: [GitHub](https://github.com/Valik3201/goit-js-hw-10)
 
