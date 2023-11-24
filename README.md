@@ -110,7 +110,7 @@ Follow these steps to set up and run the project:
 3. Navigate to the project folder:
 
    ```bash
-   cd cat-search
+   cd goit-js-hw-10
    ```
 
 4. Install NPM packages:
@@ -158,7 +158,7 @@ Now, you're all set up to run the cat search application!
 
 ## 3. Documentation and Final Touches
 
-- [ ] Update the README with detailed instructions and information.
+- [x] Update the README with detailed instructions and information.
 - [ ] Double-check the project for any issues and fix them.
 - [ ] Ensure the code follows best practices and is well-commented.
 - [ ] Test the entire application for functionality and responsiveness.
