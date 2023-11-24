@@ -68,13 +68,18 @@ Minimal design is added to the interface elements. Libraries like [SlimSelect](h
 
 ## Built With
 
-- HTML
-- CSS
-- JavaScript
-- Axios
-- [SlimSelect](https://slimselectjs.com/) (optional)
-- [CSS Loaders](https://cssloaders.github.io/) (optional)
-- [Notiflix](https://www.notiflix.com/) (optional)
+- [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+- [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+- [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
+
+- [SlimSelect](https://slimselectjs.com/)
+- [CSS Loaders](https://cssloaders.github.io/)
+- [Notiflix](https://www.notiflix.com/)
+
+
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -172,10 +177,15 @@ Contributions are welcome! Please feel free to submit a pull request.
 
 ## Contact
 
-Valentyn Chernetskyi - [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valik3201@gmail.com)
- - [@valik3201](https://x.com/valik3201) - [LinkedIn](https://www.linkedin.com/in/valentynchernetskyi/)
+**Valentyn Chernetskyi**
 
-Project Link: [GitHub](https://github.com/Valik3201/goit-js-hw-10)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valik3201@gmail.com)
+
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/valik3201)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/valentynchernetskyi/)
+
+Project Link: [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Valik3201/goit-js-hw-10)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
