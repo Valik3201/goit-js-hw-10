@@ -182,6 +182,7 @@ Contributions are welcome! Please feel free to submit a pull request.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/valentynchernetskyi/)
 
 Project Link:
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Valik3201/goit-js-hw-10)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
