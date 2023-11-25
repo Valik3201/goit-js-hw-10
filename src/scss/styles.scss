@@ -1,47 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #10162f;
-  line-height: 1.5;
-}
-
-.title {
-  text-align: center;
-  color: #10162f;
-}
-
-.breed-select {
-  width: 200px;
-  padding: 10px;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.loader {
-  font-size: 1.2em;
-  // display: none;
-}
-
-.error {
-  font-size: 1.2em;
-  color: #ff0000;
-  // display: none;
-}
-
-.cat-info {
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  // display: none;
-}
+@import "globals";
+@import "variables";
+@import "mixins";
+@import "base";
+@import "components";
