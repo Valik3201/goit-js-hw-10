@@ -68,16 +68,16 @@ Minimal design is added to the interface elements. Libraries like [SlimSelect](h
 
 ## Built With
 
-- [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-- [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
-- [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
+* [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+* [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+* [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
-- [SlimSelect](https://slimselectjs.com/)
-- [CSS Loaders](https://cssloaders.github.io/)
-- [Notiflix](https://www.notiflix.com/)
+* [SlimSelect](https://slimselectjs.com/)
+* [CSS Loaders](https://cssloaders.github.io/)
+* [Notiflix](https://www.notiflix.com/)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -87,7 +87,7 @@ Minimal design is added to the interface elements. Libraries like [SlimSelect](h
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) and npm (Node Package Manager)
+* [Node.js](https://nodejs.org/) and npm (Node Package Manager)
 
 You can install npm by running the following command:
 
@@ -110,7 +110,7 @@ Follow these steps to set up and run the project:
 3. Navigate to the project folder:
 
    ```bash
-   cd cat-search
+   cd goit-js-hw-10
    ```
 
 4. Install NPM packages:
@@ -158,7 +158,7 @@ Now, you're all set up to run the cat search application!
 
 ## 3. Documentation and Final Touches
 
-- [ ] Update the README with detailed instructions and information.
+- [x] Update the README with detailed instructions and information.
 - [ ] Double-check the project for any issues and fix them.
 - [ ] Ensure the code follows best practices and is well-commented.
 - [ ] Test the entire application for functionality and responsiveness.
