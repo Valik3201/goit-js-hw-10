@@ -1,0 +1,20 @@
+// Typography
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/rage-italic");
+
+$font-primary: "Poppins", sans-serif;
+$font-secondary: "Rage Italic", sans-serif;
+
+// Colors
+
+$primary-color: #bfea88;
+$secondary-color: #192928;
+
+$primary-lighter: lighten($primary-color, 10%);
+$primary-darker: darken($primary-color, 10%);
+
+$secondary-lighter: lighten($secondary-color, 10%);
+$secondary-darker: darken($secondary-color, 10%);
+
+$accent-color: #e23c12;
