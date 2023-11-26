@@ -16,10 +16,62 @@
 }
 
 .breed-select {
+  display: none;
   height: 3rem;
 }
 
 .cat-info {
   background-color: $secondary-color;
-  // display: none;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .container {
+    gap: 2rem;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .breed-info {
+    border: 1px solid $primary-color;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+
+    p {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    &__title {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    &__description {
+      border-top: 1px solid $primary-color;
+      line-height: calc(1ex / 0.32);
+    }
+
+    &__temperament {
+      font-size: 0.85rem;
+      line-height: 2;
+
+      strong {
+        text-transform: uppercase;
+      }
+
+      .temperament-item {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-radius: 50px;
+        padding: 0.125rem 0.5rem;
+      }
+    }
+  }
 }
