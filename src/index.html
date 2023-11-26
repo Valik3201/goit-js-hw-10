@@ -12,12 +12,18 @@
       <div class="container">
         <h1 class="title">The Cat <span class="highlight">Search</span></h1>
         <select class="breed-select" multiple></select>
-        <p class="loader">Loading data, please wait...</p>
-        <p class="error">Oops! Something went wrong! Try reloading the page!</p>
+
+        <div class="overlay-loader">
+          <div class="loader-container">
+            <div class="loader"></div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="cat-info"><div class="container"></div></div>
+    <div class="cat-info">
+      <p class="error">Oops! Something went wrong! Try reloading the page!</p>
+    </div>
 
     <script src="./js/index.js" type="module"></script>
   </body>
