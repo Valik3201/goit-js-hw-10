@@ -213,6 +213,17 @@ div {
   padding: 0.125rem 0.5rem;
 }
 
+footer.container {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .breed-select.ss-main {
   border: 1px solid #bfea88;
   border-radius: 50px;
