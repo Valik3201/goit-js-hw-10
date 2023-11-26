@@ -1,0 +1,91 @@
+@import "variables";
+
+.breed-select.ss-main {
+  border: 1px solid $primary-color;
+  border-radius: 50px;
+  background-color: transparent;
+  color: $secondary-color;
+
+  .ss-values {
+    .ss-value {
+      background-color: $primary-color;
+      border-radius: 50px;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+
+      .ss-value-text {
+        color: $secondary-color;
+      }
+      .ss-value-delete {
+        border-color: $secondary-color;
+        svg path {
+          stroke: $secondary-color;
+        }
+      }
+    }
+
+    .ss-placeholder {
+      color: $primary-color;
+      padding-left: 1rem;
+    }
+  }
+
+  .ss-deselect svg path,
+  .ss-arrow path {
+    stroke: $primary-color;
+  }
+
+  &.ss-open-above {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  &.ss-open-below {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+}
+
+.breed-select.ss-content {
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  border-radius: 0;
+
+  .ss-list {
+    .ss-option {
+      color: $primary-color;
+
+      &:hover,
+      &.ss-selected,
+      &.ss-highlighted,
+      &:not(.ss-disabled).ss-selected {
+        background-color: $primary-color;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  &.ss-open-above {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  &.ss-open-below {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .ss-search {
+    input {
+      background-color: transparent;
+      color: $primary-color;
+      border-color: $primary-color;
+      &::placeholder {
+        color: $primary-color;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
