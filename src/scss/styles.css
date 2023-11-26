@@ -198,6 +198,9 @@ div {
   background-color: transparent;
   color: #192928;
 }
+.breed-select.ss-main:focus {
+  box-shadow: 0 0 5px #bfea88;
+}
 .breed-select.ss-main .ss-values .ss-value {
   background-color: #bfea88;
   border-radius: 50px;
@@ -231,12 +234,13 @@ div {
 }
 
 .breed-select.ss-content {
-  background-color: transparent;
+  background-color: rgba(25, 41, 40, 0.5);
   border: 1px solid #bfea88;
   border-radius: 0;
 }
 .breed-select.ss-content .ss-list .ss-option {
   color: #bfea88;
+  padding-left: 1rem;
 }
 .breed-select.ss-content .ss-list .ss-option:hover, .breed-select.ss-content .ss-list .ss-option.ss-selected, .breed-select.ss-content .ss-list .ss-option.ss-highlighted, .breed-select.ss-content .ss-list .ss-option:not(.ss-disabled).ss-selected {
   background-color: #bfea88;
@@ -262,5 +266,5 @@ div {
   color: #bfea88;
 }
 .breed-select.ss-content .ss-search input:focus {
-  box-shadow: none;
+  box-shadow: 0 0 5px #bfea88;
 }/*# sourceMappingURL=styles.css.map */

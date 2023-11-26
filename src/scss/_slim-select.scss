@@ -6,6 +6,10 @@
   background-color: transparent;
   color: $secondary-color;
 
+  &:focus {
+    box-shadow: 0 0 5px $primary-color;
+  }
+
   .ss-values {
     .ss-value {
       background-color: $primary-color;
@@ -47,13 +51,14 @@
 }
 
 .breed-select.ss-content {
-  background-color: transparent;
+  background-color: rgba($color: $secondary-color, $alpha: 0.5);
   border: 1px solid $primary-color;
   border-radius: 0;
 
   .ss-list {
     .ss-option {
       color: $primary-color;
+      padding-left: 1rem;
 
       &:hover,
       &.ss-selected,
@@ -84,7 +89,7 @@
         color: $primary-color;
       }
       &:focus {
-        box-shadow: none;
+        box-shadow: 0 0 5px $primary-color;
       }
     }
   }
