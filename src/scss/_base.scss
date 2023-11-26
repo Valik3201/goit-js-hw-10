@@ -12,6 +12,30 @@
   font-family: $font-secondary;
 }
 
+.discover {
+  flex-direction: column;
+  gap: 0.0625rem;
+  margin-top: 10rem;
+
+  &__title {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    width: 35rem;
+    font-size: 0.875rem;
+    line-height: calc(1ex / 0.32);
+    text-align: center;
+  }
+}
+
 .overlay-loader {
   position: fixed;
   top: 0;

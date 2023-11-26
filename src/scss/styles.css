@@ -74,6 +74,27 @@ div {
   font-family: "Rage Italic", sans-serif;
 }
 
+.discover {
+  flex-direction: column;
+  gap: 0.0625rem;
+  margin-top: 10rem;
+}
+.discover__title {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+.discover__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.discover__description {
+  width: 35rem;
+  font-size: 0.875rem;
+  line-height: 3.125ex;
+  text-align: center;
+}
+
 .overlay-loader {
   position: fixed;
   top: 0;
