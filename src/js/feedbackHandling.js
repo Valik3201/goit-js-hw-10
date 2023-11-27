@@ -25,7 +25,7 @@ const notifier = new AWN(globalOptions);
  * If the error is a 404, a custom notification with specific labels is shown.
  * @param {Error} error - The error object.
  */
-export function showError(error) {
+export const showError = (error) => {
   let errorMessage = "";
 
   if (error && error.response && error.response.status === 404) {
@@ -59,7 +59,7 @@ export function showError(error) {
     // Show the alert notification with the original notifier instance
     notifier.alert(errorMessage);
   }
-}
+};
 
 /**
  * Shows the loading overlay by setting its display property to "grid".
