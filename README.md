@@ -1,19 +1,20 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
-<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rage-italic">
-  
-<style>
-  .title {
-    font-family: "Poppins", sans-serif;
-    color: #bfea88;
-    font-weight: 700;
-    text-align: center;
-  }
-
-    .highlight {
-      font-family: "Rage Italic", sans-serif;
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rage-italic">
+    
+  <style>
+    .title {
+      font-family: "Poppins", sans-serif;
+      color: #bfea88;
+      font-weight: 700;
+      text-align: center;
     }
-</style>
   
+      .highlight {
+        font-family: "Rage Italic", sans-serif;
+      }
+  </style>
+</head>
 <a name="readme-top">
   <h1 class="title">The Cat <span class="highlight">Search</span></h1>
 </a>
