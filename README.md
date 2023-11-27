@@ -5,7 +5,7 @@
     <img alt="The Cat Search Logo" src="src/assets/the-cat-search-logo.svg" width="600">
   </picture>
     <h1>
-      HTTP Requests and Fetch API - Cat Search
+      HTTP Requests and Fetch API
     </h1>
   </div>
 </a>
