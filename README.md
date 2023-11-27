@@ -1,25 +1,14 @@
-<head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rage-italic">
-    
-  <style>
-    .title {
-      font-family: "Poppins", sans-serif;
-      color: #bfea88;
-      font-weight: 700;
-      text-align: center;
-    }
-  
-      .highlight {
-        font-family: "Rage Italic", sans-serif;
-      }
-  </style>
-</head>
 <a name="readme-top">
-  <h1 class="title">The Cat <span class="highlight">Search</span></h1>
+  <div align="center"> 
+  <br>
+  <picture>
+    <img alt="The Cat Search Logo" src="src/assets/the-cat-search-logo.svg" width="600">
+  </picture>
+    <h1>
+      HTTP Requests and Fetch API
+    </h1>
+  </div>
 </a>
-
-# HTTP Requests and Fetch API - Cat Search 🐾
 
 <details>
   <summary>Table of Contents</summary>
@@ -81,7 +70,7 @@ If an error occurs in any HTTP request, the error element is displayed, and it h
 
 ### The Interface
 
-Minimal design is added to the interface elements. Libraries like [SlimSelect](https://slimselectjs.com/) for beautiful selects, [CSS Loaders](https://cssloaders.github.io/) for loaders, and [Notiflix](https://www.notiflix.com/) for notifications can be integrated.
+Minimal design is added to the interface elements. Libraries like [SlimSelect](https://slimselectjs.com/) for beautiful selects, and [Awesome Notifications](https://f3oall.github.io/awesome-notifications/) for notifications can be integrated.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -95,8 +84,7 @@ Minimal design is added to the interface elements. Libraries like [SlimSelect](h
 * [![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
 * [SlimSelect](https://slimselectjs.com/)
-* [CSS Loaders](https://cssloaders.github.io/)
-* [Notiflix](https://www.notiflix.com/)
+* [Awesome Notifications](https://f3oall.github.io/awesome-notifications/)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
