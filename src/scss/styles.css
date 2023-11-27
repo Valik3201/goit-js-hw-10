@@ -37,10 +37,10 @@ div {
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 33.8125rem;
+    max-width: 80%;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 1158px;
   }
@@ -64,10 +64,20 @@ div {
 
 .title {
   color: #bfea88;
-  font-size: 7.5rem;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
   margin: 0;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 7.5rem;
+  }
 }
 
 .highlight {
@@ -77,11 +87,26 @@ div {
 .discover {
   flex-direction: column;
   gap: 0.0625rem;
-  margin-top: 10rem;
+  margin-top: 6rem;
+}
+@media (min-width: 768px) {
+  .discover {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .discover {
+    margin-top: 10rem;
+  }
 }
 .discover__title {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-transform: capitalize;
+}
+@media (min-width: 768px) {
+  .discover__title {
+    font-size: 1.25rem;
+  }
 }
 .discover__heading {
   font-size: 2.5rem;
@@ -89,10 +114,15 @@ div {
   text-transform: uppercase;
 }
 .discover__description {
-  width: 35rem;
+  width: 90%;
   font-size: 0.875rem;
   line-height: 3.125ex;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .discover__description {
+    width: 35rem;
+  }
 }
 
 .overlay-loader {
@@ -142,27 +172,62 @@ div {
   }
 }
 
-.error {
-  display: none;
-  font-size: 1rem;
-  color: #e23c12;
-  text-align: center;
-}
-
 .bg-hero {
   background-image: linear-gradient(rgba(53, 28, 22, 0.48), rgba(53, 28, 22, 0.48)), url(../assets/cat.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 37.5rem;
   margin: 0 auto;
   padding: 112px 0;
+}
+@media (min-width: 768px) {
+  .bg-hero {
+    height: 39.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .bg-hero {
+    height: 50.5rem;
+  }
 }
 
 .breed-select {
   display: none;
   height: 3rem;
+}
+
+.message-box {
+  width: 90%;
+  text-align: justify;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 9vw;
+  text-transform: uppercase;
+  padding-top: 4rem;
+}
+@media (min-width: 768px) {
+  .message-box {
+    max-width: 80%;
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .message-box {
+    width: 71.75rem;
+    font-size: 8.625rem;
+    letter-spacing: 0.0625rem;
+  }
+}
+
+.bg-light {
+  background-color: #bfea88;
+  color: #192928;
+}
+.bg-light .message-box {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .cat-info {
@@ -175,12 +240,23 @@ div {
 }
 .cat-info .container {
   gap: 2rem;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  .cat-info .container {
+    flex-direction: row;
+  }
 }
 .cat-info img {
-  width: 300px;
-  height: auto;
+  width: 100%;
+  max-height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (min-width: 1200px) {
+  .cat-info img {
+    width: 300px;
+  }
 }
 .cat-info .breed-info {
   border: 1px solid #bfea88;
@@ -193,7 +269,13 @@ div {
 }
 .cat-info .breed-info__title {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .cat-info .breed-info__title {
+    max-width: 80%;
+    font-size: 2rem;
+  }
 }
 .cat-info .breed-info__description {
   border-top: 1px solid #bfea88;

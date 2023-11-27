@@ -29,7 +29,7 @@ div {
   padding: 0 15px;
 
   @include breakpoint-up(tablet) {
-    max-width: 33.8125rem;
+    max-width: 80%;
   }
 
   @include breakpoint-up(desktop) {

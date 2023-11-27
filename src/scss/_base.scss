@@ -2,10 +2,18 @@
 
 .title {
   color: $primary-color;
-  font-size: 7.5rem;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
   margin: 0;
+
+  @include breakpoint-up(tablet) {
+    font-size: 4.5rem;
+  }
+
+  @include breakpoint-up(desktop) {
+    font-size: 7.5rem;
+  }
 }
 
 .highlight {
@@ -15,11 +23,23 @@
 .discover {
   flex-direction: column;
   gap: 0.0625rem;
-  margin-top: 10rem;
+  margin-top: 6rem;
+
+  @include breakpoint-up(tablet) {
+    margin-top: 8rem;
+  }
+
+  @include breakpoint-up(desktop) {
+    margin-top: 10rem;
+  }
 
   &__title {
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-transform: capitalize;
+
+    @include breakpoint-up(tablet) {
+      font-size: 1.25rem;
+    }
   }
 
   &__heading {
@@ -29,10 +49,14 @@
   }
 
   &__description {
-    width: 35rem;
+    width: 90%;
     font-size: 0.875rem;
     line-height: calc(1ex / 0.32);
     text-align: center;
+
+    @include breakpoint-up(tablet) {
+      width: 35rem;
+    }
   }
 }
 
