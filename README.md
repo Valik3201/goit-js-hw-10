@@ -70,7 +70,7 @@ If an error occurs in any HTTP request, the error element is displayed, and it h
 
 ### The Interface
 
-Minimal design is added to the interface elements. Libraries like [SlimSelect](https://slimselectjs.com/) for beautiful selects, [CSS Loaders](https://cssloaders.github.io/) for loaders, and [Notiflix](https://www.notiflix.com/) for notifications can be integrated.
+Minimal design is added to the interface elements. Libraries like [SlimSelect](https://slimselectjs.com/) for beautiful selects, and [Awesome Notifications](https://f3oall.github.io/awesome-notifications/) for notifications can be integrated.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -84,8 +84,7 @@ Minimal design is added to the interface elements. Libraries like [SlimSelect](h
 * [![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
 * [SlimSelect](https://slimselectjs.com/)
-* [CSS Loaders](https://cssloaders.github.io/)
-* [Notiflix](https://www.notiflix.com/)
+* [Awesome Notifications](https://f3oall.github.io/awesome-notifications/)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
