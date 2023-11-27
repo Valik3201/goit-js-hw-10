@@ -10,8 +10,6 @@
   </div>
 </a>
 
-# HTTP Requests and Fetch API - Cat Search 🐾
-
 <details>
   <summary>Table of Contents</summary>
 
