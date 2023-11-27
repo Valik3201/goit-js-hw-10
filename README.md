@@ -2,7 +2,7 @@
   <div align="center"> 
   <br>
   <picture>
-    <img alt="The Cat Search Logo" src="src/assets/the-cat-search-logo.svg" width="400">
+    <img alt="The Cat Search Logo" src="src/assets/the-cat-search-logo.svg" width="600">
   </picture>
     <h1>
       HTTP Requests and Fetch API - Cat Search
