@@ -1,22 +1,13 @@
-<head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rage-italic">
-    
-  <style>
-    .title {
-      font-family: "Poppins", sans-serif;
-      color: #bfea88;
-      font-weight: 700;
-      text-align: center;
-    }
-  
-      .highlight {
-        font-family: "Rage Italic", sans-serif;
-      }
-  </style>
-</head>
 <a name="readme-top">
-  <h1 class="title">The Cat <span class="highlight">Search</span></h1>
+  <div align="center"> 
+  <br>
+  <picture>
+    <img alt="The Cat Search Logo" src="src/assets/the-cat-search-logo.svg" width="400">
+  </picture>
+    <h1>
+      HTTP Requests and Fetch API - Cat Search
+    </h1>
+  </div>
 </a>
 
 # HTTP Requests and Fetch API - Cat Search 🐾
