@@ -1,4 +1,23 @@
-<a name="readme-top"></a>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rage-italic">
+    
+  <style>
+    .title {
+      font-family: "Poppins", sans-serif;
+      color: #bfea88;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+      .highlight {
+        font-family: "Rage Italic", sans-serif;
+      }
+  </style>
+</head>
+<a name="readme-top">
+  <h1 class="title">The Cat <span class="highlight">Search</span></h1>
+</a>
 
 # HTTP Requests and Fetch API - Cat Search 🐾
 
@@ -148,13 +167,13 @@ Now, you're all set up to run the cat search application!
 
 ## 2. HTTP Requests - Cat Search
 
-- [ ] Set up axios for making HTTP requests in `cat-api.js`.
-- [ ] Fetch a collection of cat breeds from The Cat API.
-- [ ] Populate the breed selector with fetched data.
-- [ ] Implement fetching cat information by breed.
-- [ ] Display cat information and image in the interface.
-- [ ] Handle loading states and errors with appropriate UI feedback.
-- [ ] Add minimal design to the interface elements.
+- [x] Set up axios for making HTTP requests in `cat-api.js`.
+- [x] Fetch a collection of cat breeds from The Cat API.
+- [x] Populate the breed selector with fetched data.
+- [x] Implement fetching cat information by breed.
+- [x] Display cat information and image in the interface.
+- [x] Handle loading states and errors with appropriate UI feedback.
+- [x] Add minimal design to the interface elements.
 
 ## 3. Documentation and Final Touches
 
