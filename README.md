@@ -32,7 +32,8 @@
 
 This project focuses on developing the frontend component of an application designed for retrieving information about cat breeds. The primary objective is to delve into the realm of HTTP requests and utilize the Fetch API. The project offers a practical learning experience in executing asynchronous requests to a remote server, managing responses, and dynamically refreshing the user interface.
 
-**Note: The project is set up for automatic deployment to GitHub Pages using GitHub Actions by JamesIves ([GitHub Pages Deployment Action](https://github.com/marketplace/actions/deploy-to-github-pages)). The deployment action is configured to push production-ready code into the `gh-pages` branch.**
+> [!NOTE]\
+> The project is set up for automatic deployment to GitHub Pages using GitHub Actions by JamesIves ([GitHub Pages Deployment Action](https://github.com/marketplace/actions/deploy-to-github-pages)). The deployment action is configured to push production-ready code into the `gh-pages` branch.
 
 ### HTTP-requests
 
